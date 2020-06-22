@@ -2,7 +2,7 @@
 
 Here lies all the code that will be used in the Newbie Ed for the Design Competition 2020.
 
-# Day 1
+## Day 1
 
 1) Clone this repository and create a new branch (Name it as FirstnameLastname, fill in your name of course, Ex: PakMingLau)
 2) Checkout your branch and open Dog.java in your folder with VSCode
@@ -16,32 +16,48 @@ Here lies all the code that will be used in the Newbie Ed for the Design Competi
 10) `git add -A` and `git commit -m` and then `git push`. **From Renee: Make your commit messages pretty**
 11) Create a pull request to merge to master.
 
-**Optional**
+### Optional
 
 Create a new branch and name it FirstnameLastname1 (Ex: PakMingLau1).
+
 - Create an interface called Animal
-    - Add a method called makeNoise(), run(), eat(), age(). (These methods could have parameters and are missing return types, use your best judgement) 
+
+  - Add a method called makeNoise(), run(), eat(), age(). (These methods could have parameters and are missing return types, use your best judgement)
+
 - Update Dog.java to implement Animal
-    - replace bark() with makeNoise()
-    - run() should take in an int n and if it's even, print out "`name`: pitter". If it's odd, print out "`name`: patter"
+
+  - replace bark() with makeNoise()
+
+  - run() should take in an int n and if it's even, print out "`name`: pitter". If it's odd, print out "`name`: patter"
         - `foo.run(9)` -> foo: patter
-    - eat() should take in a String n and print out "`name` is eating `n`"
-        - `foo.eat("lasagna")` -> foo is eating lasagna
+
+  - eat() should take in a String n and print out "`name` is eating `n`"
+
+  - `foo.eat("lasagna")` -> foo is eating lasagna
     - age() should increment the age by one and return the age after incrementing
 
 - Create a class Cat that implements Animal (Use your best judgement and don't be afraid to add methods or variables to help you)
-    - makeNoise() should print "Meow"
-    - run() is similar to Dog.java's run(), but if it's even, print "`name`: patter" and if it's odd, print "`name`: pitter".
-    - eat() is similar to Dog.java's eat(), but print's out "`owner` is feeding `n`"
-    - age() is the same as Dog.java's except you increment by two.
+
+  - makeNoise() should print "Meow"
+
+  - run() is similar to Dog.java's run(), but if it's even, print "`name`: patter" and if it's odd, print "`name`: pitter".
+
+  - eat() is similar to Dog.java's eat(), but print's out "`owner` is feeding `n`"
+
+  - age() is the same as Dog.java's except you increment by two.
+
+- Create a `static` method called `updateAnimal(...)` that calls some of the methods in Animal. It is up to you where you put this static method (a class and an interface can have static methods, however, a method WITH a definition in an interface is static by default (with one exception)).
+
+  - You should notice that when you call this method in a main method, instances of both Cat and Dog are valid parameters.
 
 - Create a pull request to merge this branch to your first branch and message Pak, Renee, Myles, or Sam.
-    - `base:` is the first branch and `compare:` is this branch
+
+  - `base:` is the first branch and `compare:` is this branch
 
 - Once the pull request has been approved, delete this branch.
 
 *_Try to figure these out by yourselves, but don't be afraid to ask us if the instructions are unclear._
 
-# Day 2
+## Day 2
 
-# Day 3
+## Day 3
