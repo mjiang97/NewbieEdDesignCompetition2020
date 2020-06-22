@@ -46,10 +46,6 @@ Create a new branch and name it FirstnameLastname1 (Ex: PakMingLau1).
 
   - age() is the same as Dog.java's except you increment by two.
 
-- Create a `static` method called `updateAnimal(Animal a)` that calls some of the methods in Animal. It is up to you where you put this static method (a class and an interface can have static methods, however, a method WITH a definition in an interface is static by default (with one exception)).
-
-  - You should notice that when you call this method in a main method, instances of both Cat and Dog are valid parameters.
-
 - Create a pull request to merge this branch to your first branch and message Pak, Renee, Myles, or Sam.
 
   - `base:` is the first branch and `compare:` is this branch
