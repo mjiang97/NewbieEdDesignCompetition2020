@@ -18,5 +18,7 @@ public class Dog {
     public static void main(String[] args) {
         Dog foo = new Dog("foo", "golden retriever", 5);
         foo.bark();
+        Dog fred = new Dog("Fred", "husky", 1);
+        fred.bark();
     }
 }
