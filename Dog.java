@@ -10,11 +10,7 @@ public class Dog {
         this.age = age;
         rabies = false;
     }
-    
-    public boolean hasRabies() {
-        return rabies;
-    }
-    
+   
     public void bark() {
         System.out.println("bork");
     }
