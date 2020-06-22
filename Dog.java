@@ -11,9 +11,14 @@ public class Dog {
         rabies = false;
     }
     
+    public boolean hasRabies() {
+        return rabies;
+    }
+    
     public void bark() {
         System.out.println("bork");
     }
+    
     public static void main(String[] args) {
         Dog foo = new Dog("foo", "golden retriever", 5);
         foo.bark();
