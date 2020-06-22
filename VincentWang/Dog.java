@@ -1,3 +1,5 @@
+package VincentWang;
+
 public class Dog {
     String name;
     String breed;
