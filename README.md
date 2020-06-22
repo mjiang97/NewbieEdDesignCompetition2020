@@ -2,11 +2,6 @@
 
 Here lies all the code that will be used in the Newbie Ed for the Design Competition 2020.
 
-<<<<<<< Updated upstream
-## TODO:
-
- * Add hasRabies() method
-=======
 # Day 1
 
 1) Clone this repository and create a new branch (Name it as FirstnameLastname)
@@ -24,4 +19,3 @@ Here lies all the code that will be used in the Newbie Ed for the Design Competi
 # Day 2
 
 # Day 3
->>>>>>> Stashed changes
