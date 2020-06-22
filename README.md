@@ -35,6 +35,11 @@ Create a new branch and name it FirstnameLastname1 (Ex: PakMingLau1).
     - eat() is similar to Dog.java's eat(), but print's out "`owner` is feeding `n`"
     - age() is the same as Dog.java's except you increment by two.
 
+- Create a pull request to merge this branch to your first branch and message Pak, Renee, Myles, or Sam.
+    - `base:` is the first branch and `compare:` is this branch
+    
+- Once the pull request has been aproved, delete this branch
+
 *_Try to figure these out by yourselves, but don't be afraid to ask us if instructions are unclear._
 
 # Day 2
