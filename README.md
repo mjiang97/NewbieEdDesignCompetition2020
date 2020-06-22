@@ -37,8 +37,8 @@ Create a new branch and name it FirstnameLastname1 (Ex: PakMingLau1).
 
 - Create a pull request to merge this branch to your first branch and message Pak, Renee, Myles, or Sam.
     - `base:` is the first branch and `compare:` is this branch
-    
-- Once the pull request has been aproved, delete this branch
+
+- Once the pull request has been approved, delete this branch
 
 *_Try to figure these out by yourselves, but don't be afraid to ask us if instructions are unclear._
 
