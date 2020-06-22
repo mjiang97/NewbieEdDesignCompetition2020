@@ -24,7 +24,8 @@ Create a new branch and name it FirstnameLastname1 (Ex: PakMingLau1).
     - Add a method called makeNoise(), run(), eat(), age(). (These methods could have parameters and are missing return types, use your best judgement) 
 - Update Dog.java to implement Animal
     - replace bark() with makeNoise()
-    - run() should take in an int n and if it's even, print out "pitter". If it's odd, print out "patter"
+    - run() should take in an int n and if it's even, print out "`Name`: pitter". If it's odd, print out "`Name`: patter"
+        - `foo.run(9)` -> Foo: patter
     - eat() should take in a String n and print out "`Name` is eating `n`"
         - `foo.eat("lasagna")` -> Foo is eating lasagna
     
