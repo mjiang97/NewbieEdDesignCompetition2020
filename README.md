@@ -40,7 +40,7 @@ Create a new branch and name it FirstnameLastname1 (Ex: PakMingLau1).
 
 - Once the pull request has been approved, delete this branch.
 
-*_Try to figure these out by yourselves, but don't be afraid to ask us if instructions are unclear._
+*_Try to figure these out by yourselves, but don't be afraid to ask us if the instructions are unclear._
 
 # Day 2
 
