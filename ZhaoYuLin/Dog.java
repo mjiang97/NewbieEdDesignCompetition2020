@@ -6,7 +6,14 @@ public class Dog {
     int age;
     boolean rabies;
 
-    public Dog(String name,String type,int age) {
+    public Dog() {
+        name = "Fred";
+        breed = "Husky";
+        age = 3;
+        rabies = true;
+    }
+
+    public Dog(String name, String type, int age) {
         this.name = name;
         breed = type;
         this.age = age;
@@ -17,39 +24,33 @@ public class Dog {
         System.out.println("bork");
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public int getAgeInDogyears() {
+        return (age * 7);
+    }
+
+    public boolean hasRabies() {
+        return rabies;
+    }
+
+    public void setRabies(boolean gotRabies) {
+        rabies = gotRabies;
+    }
+
     public static void main(String[] args) {
         Dog foo = new Dog("foo", "golden retriever", 5);
         foo.bark();
-        Dog Fred = new Dog();
-        Fred.bark();
-        System.out.println("Fred's age: " + Fred.getAge());
-        Fred.setRabies(true);
-          Dog bar = new Dog("bar", "dachshund",1);
-        System.out.println("Bar's age in dog years: " + bar.getAgeinDogyears());
+        Dog fred = new Dog();
+        fred.bark();
+        System.out.println("Fred's age: " + fred.getAge());
+        fred.setRabies(true);
+        Dog bar = new Dog("Bar", "dachshund", 1);
+        System.out.println("Bar's age in dog years: " + bar.getAgeInDogyears());
         bar.setRabies(true);
-        System.out.println("Does bar have rabies: " + bar.hasRabies());
-
-
-    }
-    public Dog(){
-        name = "Fred";
-        breed = "Husky";
-        age = 3;
-        rabies = true;
-        
-    
-    }
-    public int getAge(){
-        return age;
-    }
-    public int getAgeinDogyears(){
-        return (age + 7);
-    }
-    public boolean hasRabies(){
-        return rabies;
-    }
-    public void setRabies(boolean gotRabies){
-        rabies = gotRabies;
+        System.out.println("Does Bar have rabies: " + bar.hasRabies());
     }
 
 }
