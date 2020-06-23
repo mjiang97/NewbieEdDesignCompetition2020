@@ -6,7 +6,7 @@ public class Dog {
     int age;
     boolean rabies;
 
-    public Dog(final String name, final String type, final int age) {
+    public Dog(String name,String type,int age) {
         this.name = name;
         breed = type;
         this.age = age;
@@ -17,14 +17,14 @@ public class Dog {
         System.out.println("bork");
     }
 
-    public static void main(final String[] args) {
-        final Dog foo = new Dog("foo", "golden retriever", 5);
+    public static void main(String[] args) {
+        Dog foo = new Dog("foo", "golden retriever", 5);
         foo.bark();
         Dog Fred = new Dog();
         Fred.bark();
         System.out.println("Fred's age: " + Fred.getAge());
         Fred.setRabies(true);
-        final Dog bar = new Dog("bar", "dachshund",1);
+          Dog bar = new Dog("bar", "dachshund",1);
         System.out.println("Bar's age in dog years: " + bar.getAgeinDogyears());
         bar.setRabies(true);
         System.out.println("Does bar have rabies: " + bar.hasRabies());
