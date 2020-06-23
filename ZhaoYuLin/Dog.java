@@ -28,7 +28,7 @@ public class Dog {
         return age;
     }
 
-    public int getAgeInDogyears() {
+    public int getAgeInDogYears() {
         return (age * 7);
     }
 
@@ -48,7 +48,7 @@ public class Dog {
         System.out.println("Fred's age: " + fred.getAge());
         fred.setRabies(true);
         Dog bar = new Dog("Bar", "dachshund", 1);
-        System.out.println("Bar's age in dog years: " + bar.getAgeInDogyears());
+        System.out.println("Bar's age in dog years: " + bar.getAgeInDogYears());
         bar.setRabies(true);
         System.out.println("Does Bar have rabies: " + bar.hasRabies());
     }
